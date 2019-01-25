@@ -8,13 +8,8 @@ div {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 2px solid #dddddd;
+    /*border: 2px solid #dddddd;*/
   }
-nav {
-    color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    border-bottom-color: #cccccc;
-}
 h1 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
