@@ -1,5 +1,6 @@
 body {
     background: url("../images/exclusive_paper.png");
+    height: 1000px;
   }
 div {
     background-color: #ffffff;
@@ -8,8 +9,48 @@ div {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    /*border: 2px solid #dddddd;*/
+    
   }
+  li.icon {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+    font-size: 24px;
+}
+
+  ul {
+    background-color: #ffffff;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+  }
+li {
+    float: right;
+    
+    
+  }
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.navbar {
+    border-bottom: 2px solid #dddddd;
+}
+.main {
+    border: 2px solid #dddddd;
+}
+  
 h1 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -59,26 +100,41 @@ textarea {
     border: 0.05px solid #777777;
     opacity: 0.25;
 }
-ul {
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    border-bottom: 2px solid #dddddd;
-  }
-  li {
-    float: right;
-  }
-  li a {
-    display: block;
-    color: #777777;
+    padding: 8px 16px;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
   }
-  
+  div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    height: 200px;
+  }
+  section {
+    max-width: 480px; 
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  div.desc {
+    position: absolute;
+    z-index: 10;
+    padding: 15px;
+    width: 170px;
+    text-align: center;
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 140px;
+  }
